@@ -85,8 +85,6 @@ public class Main {
         } else {
             System.out.println("Error: " + length + " isn't a valid number.");
         }
-
-
     }
 
     public static class Grader {
@@ -125,7 +123,6 @@ public class Main {
                 index++;
             }
             return bull;
-
         }
 
         public boolean printGrade(String code) {
@@ -155,6 +152,5 @@ public class Main {
             }
             return flag;
         }
-
     }
 }
